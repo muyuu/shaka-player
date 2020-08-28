@@ -35,7 +35,7 @@ jobs:
           then \
           echo "No update found" \
           exit 1 \
-          fi
+          fi \
 
       - name: make branch and pull from shaka latest
         run: |
